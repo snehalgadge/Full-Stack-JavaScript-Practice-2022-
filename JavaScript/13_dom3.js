@@ -9,3 +9,4 @@
 
 // document.createElement("element_name");
 // element_name.innerText = "this is the text inside the newly created text"
+
