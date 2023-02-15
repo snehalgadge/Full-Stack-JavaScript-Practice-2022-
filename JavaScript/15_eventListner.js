@@ -1,0 +1,1 @@
+// <!-- addEventListner is use to assign multiple handlers to an event -->git
