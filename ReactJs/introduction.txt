@@ -1,9 +1,0 @@
-2010 :- firsr sign of React
-2011 :- It introduced as Faxjs
-2013 :- Public release
-
-->React is JavaScript library used for building user interface
-->It is based on components.
-
-
-
