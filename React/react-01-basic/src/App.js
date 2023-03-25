@@ -1,5 +1,5 @@
 import React from "react";
-import Usestate from "./component/Hooks";
+import Usestate from "./component/Hooks/Usestate";
 
 // New version
 
@@ -23,9 +23,9 @@ import Usestate from "./component/Hooks";
 const App = () => {
   return(
     <>
+    <Usestate/>
      <h1 className="hello">Hello Everyone {3+3}</h1>
-     <p>This example is illustrating React Fragment</p>
-
+     <p>This is nested component</p>
      <MyName/>   {/* nested component */}
     </>
   );
