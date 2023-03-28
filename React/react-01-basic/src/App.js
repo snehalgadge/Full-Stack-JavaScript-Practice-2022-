@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 // New version
 
@@ -41,11 +42,14 @@ const image4 = "https://picsum.photos/240/300";
 const MyName = () =>{
   return(
   <>
-    <h1 contentEditable="true">My name is Snehal</h1>
+ 
+    <h1 className="heading">My name is Snehal</h1>
+    <div className="imageGallery">
     <img src = {image1} alt="image1"/>
     <img src = {image2} alt="image2"/>
     <img src = {image3} alt="image3"/>
     <img src = {image4} alt="image4"/>
+  </div>
   </>
   );
 };
@@ -64,6 +68,7 @@ const DateAndTime = () => {
     </>
   );
 };
+
 
 
 export default App;

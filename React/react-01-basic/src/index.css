@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.heading{
+    margin: auto;
+    height: 10vh;
+    width: 20%;
+}
+.imageGallery{
+    display: flex;
+    justify-content: center;
+}
