@@ -20,14 +20,14 @@ import React from "react";
 
 // React Fragment
 const name = 'snehal';
-
+const lastName = 'gadge';
 const App = () => {
   return(
     <>
      <h1 className="hello">Hello Everyone , my name is {name} <br></br> My lucky number is {2+3}</h1>
-     <p>This is nested component</p>
+     <h1>My Full name is {`${name} ${lastName}`}</h1>   {/*template literals*/}
      <MyName/>   {/* nested component */}
-     <h1>My name is </h1>
+     <DateAndTime/>
     </>
   );
 };
@@ -42,6 +42,22 @@ const MyName = () =>{
   </>
   );
 };
+
+
+
+// Displaying Current date and time
+const currdate = new Date().toLocaleDateString();
+const currtime = new Date().toLocaleTimeString();
+
+const DateAndTime = () => {
+  return(
+    <>
+    <p>Today's Date is: {currdate}</p>
+    <p>Time right now is : {currtime}</p>
+    </>
+  );
+};
+
 
 export default App;
 
