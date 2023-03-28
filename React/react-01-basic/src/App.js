@@ -34,11 +34,18 @@ const App = () => {
 
 
 // Creating a new component which print my name
-
+const image1 = "https://picsum.photos/200/300";
+const image2 = "https://picsum.photos/220/300";
+const image3 = "https://picsum.photos/230/300";
+const image4 = "https://picsum.photos/240/300";
 const MyName = () =>{
   return(
   <>
-    <h1>My name is Snehal</h1>
+    <h1 contentEditable="true">My name is Snehal</h1>
+    <img src = {image1} alt="image1"/>
+    <img src = {image2} alt="image2"/>
+    <img src = {image3} alt="image3"/>
+    <img src = {image4} alt="image4"/>
   </>
   );
 };
