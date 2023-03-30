@@ -1,4 +1,5 @@
 import React from "react";
+import Props from "./components/Props";
 import "./index.css";
 
 // New version
@@ -29,6 +30,7 @@ const App = () => {
      <h1>My Full name is {`${name} ${lastName}`}</h1>   {/*template literals*/}
      <MyName/>   {/* nested component */}
      <DateAndTime/>
+     <Props></Props>
     </>
   );
 };
@@ -63,8 +65,8 @@ const currtime = new Date().toLocaleTimeString();
 const DateAndTime = () => {
   return(
     <>
-    <p>Today's Date is: {currdate}</p>
-    <p>Time right now is : {currtime}</p>
+    <p style={{color:"red", fontSize:"30px",textAlign:"center"}}>Today's Date is: {currdate}</p>
+    <p style={{color:"green", fontSize:"30px", textAlign:"center"}}>Time right now is : {currtime}</p>
     </>
   );
 };
