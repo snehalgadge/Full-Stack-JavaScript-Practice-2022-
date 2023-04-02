@@ -6,7 +6,7 @@ const Context = () => {
 
   return (
     <>
-      <h1>Printing my name with the help of Context API : {data.name}</h1>
+      <h1 style={{backgroundColor: data.name}}>Printing my name with the help of Context API : {data.name}</h1>
     </>
   )
 }
