@@ -1,11 +1,14 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { MyContext } from '../App'
 
-const context = () => {
+const Context = () => {
+    const data = useContext(MyContext);
+
   return (
     <>
-      
+      <h1>Printing my name with the help of Context API : {data.name}</h1>
     </>
   )
 }
 
-export default context
+export default Context
