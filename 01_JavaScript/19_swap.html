@@ -15,14 +15,17 @@
         console.log(`original value of a is ${a}`);
         console.log(`original value of b is ${b}`);
         function swap(){
-            a = a + b;
-            b = a - b;
-            a = a - b; 
+            // logic 
+            // a = a + b;
+            // b = a - b;
+            // a = a - b; 
 
+            // Using Destructuring 
+            [a,b] = [b,a];
+            
             console.log(`New value of a is ${a}`);
             console.log(`New value of b is ${b}`);
         }
-
         swap();
     </script>
 </body>
